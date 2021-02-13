@@ -1,0 +1,46 @@
+.Login { 
+    width : 100%;
+    height : 100vh;
+    background: #e9e9e9;
+    display : flex;
+}
+
+.Login .LoginContainer{
+    box-sizing: border-box;
+    background: rgb(134, 1, 1) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 60px;
+    margin: auto;
+    width: 520px;
+    height: 600px;
+    box-shadow: 0 50px 70px -10px rgba(0, 0, 0, 0.8);
+}
+
+.Login .LoginContainer label{ 
+    color: white;
+    margin: 14px 0;
+    font-size: medium;
+
+}
+
+.Login .LoginContainer input{
+    border-style : px;
+    border: black;
+    outline: none;
+    font-size: 19px;
+    font-style: normal;
+
+}
+button{
+    border: white;
+    margin-top: 100px;
+    background :black;
+    color :white;
+    padding: 15px 0;
+    cursor: pointer;
+
+
+
+}
